@@ -363,6 +363,17 @@ body{
     .nav-left svg{
       position: relative;
     }
+    .hero-section{
+      width: 100vw;
+      height: 90vh;
+      position: relative;
+      background-image:url("img/f.svg");
+      background-repeat: no-repeat;
+      background-size:140%;
+      background-position:center;
+      display: flex;
+      justify-content: center;
+    }
     .grid-elements{
       width: 24%;
     }
@@ -420,7 +431,7 @@ body{
       position: relative;
       background-image:url("img/f.svg");
       background-repeat: no-repeat;
-      background-size:160%;
+      background-size:170%;
       background-position:center;
       display: flex;
       justify-content: center;
@@ -457,7 +468,7 @@ body{
       position: relative;
       background-image:url("img/f.svg");
       background-repeat: no-repeat;
-      background-size:180%;
+      background-size:200%;
       background-position:center;
       display: flex;
       justify-content: center;
@@ -512,7 +523,7 @@ body{
       position: relative;
       background-image:url("img/f.svg");
       background-repeat: no-repeat;
-      background-size:250%;
+      background-size:290%;
       background-position:center;
       display: flex;
       justify-content: center;
