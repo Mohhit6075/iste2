@@ -50,7 +50,7 @@ body{
     font-weight: bold;
   }
   .nav-right{
-    width: 10vw;
+    width: 100px;
     display: flex;
     justify-content: space-evenly;
   }
@@ -59,7 +59,7 @@ body{
     height: 18px;
     text-align: center;
     color: white;
-    border-radius: 100%;
+    border-radius: 200px;
     background: #ff1111;
   }
   .hero-section{
@@ -281,3 +281,388 @@ body{
     left: 50px;
 
   }
+
+
+  @media only screen and (max-width:1130px){
+    body{
+      overflow-x: hidden;
+    }
+    .grid{
+      display: flex;
+      
+    }
+    .grid-elements{
+      width: 24%;
+    }
+    .hero-section{
+      width: 100vw;
+      height: 90vh;
+      position: relative;
+      background-image:url("img/f.svg");
+      background-repeat: no-repeat;
+      background-size:130%;
+      background-position:center;
+      display: flex;
+      justify-content: center;
+    }
+    .hero-section p{
+      font-size: 3.5rem;
+    }
+    .pink-box{
+      position: absolute;
+      width: 50px;
+      height: 50px;
+      background-color: rgb(255, 35, 189);
+      top: 20vh;
+      left: 16vw;
+    }
+    .black-triangle{
+      position: absolute;
+      transform: scale(.3);
+      border-style: solid;
+      border-width: 0 100px 100px 100px;
+      border-color: transparent transparent #000000 transparent;
+      top: 8vh;
+      left: 8vw;
+    }
+    .rate{
+      display: none;
+    }
+    .product{
+      display: none;
+    }
+    .circle{
+      display: none;
+    }
+    .white{
+      display: none;
+    }
+    .or{
+      display: none;
+    }
+    .triangle{
+      display: none;
+    }
+    .pink-circle{
+      top: 60vh;
+    }
+  }
+  
+  @media only screen and (max-width:1000px){
+    body{
+      overflow-x: hidden;
+    }
+    .nav-center{
+      display: none;
+    }
+    .nav-left{
+      width: 330px;
+      display: flex;
+      justify-content: space-between;
+    }
+    .nav-left svg{
+      position: relative;
+    }
+    .grid-elements{
+      width: 24%;
+    }
+    .grid{
+      width: 90%;
+      display:flex;
+      flex-flow: wrap;
+      
+    }
+    .grid-elements{
+      width: 260px;
+    }
+    .hero-section p{
+      font-size: 3rem;
+    }
+    .pink-box{
+      position: absolute;
+      width: 50px;
+      height: 50px;
+      background-color: rgb(255, 35, 189);
+      top: 20vh;
+      left: 16vw;
+    }
+    .black-triangle{
+      position: absolute;
+      transform: scale(.3);
+      border-style: solid;
+      border-width: 0 100px 100px 100px;
+      border-color: transparent transparent #000000 transparent;
+      top: 8vh;
+      left: 8vw;
+    }
+    .pink-circle{
+      top: 60vh;
+    }
+    .green-text{
+      top: 10vh;
+      left: 50vw;
+    }
+
+  }
+  @media only screen and (max-width:900px){
+    body{
+      overflow-x: hidden;
+    }
+    .grid{
+      width: 100%;
+      display:flex;
+      flex-flow: wrap;
+      
+    }
+    .hero-section{
+      width: 100vw;
+      height: 90vh;
+      position: relative;
+      background-image:url("img/f.svg");
+      background-repeat: no-repeat;
+      background-size:160%;
+      background-position:center;
+      display: flex;
+      justify-content: center;
+    }
+    .pink-box{
+      position: absolute;
+      width: 50px;
+      height: 50px;
+      background-color: rgb(255, 35, 189);
+      top: 20vh;
+      left: 16vw;
+    }
+    .black-triangle{
+      position: absolute;
+      transform: scale(.3);
+      border-style: solid;
+      border-width: 0 100px 100px 100px;
+      border-color: transparent transparent #000000 transparent;
+      top: 8vh;
+      left: 9vw;
+    }
+    .pink-circle{
+      top: 60vh;
+      left: 60vw;
+    }
+  }
+  @media only screen and (max-width:770px){
+    body{
+      overflow-x: hidden;
+    }
+    .hero-section{
+      width: 100vw;
+      height: 90vh;
+      position: relative;
+      background-image:url("img/f.svg");
+      background-repeat: no-repeat;
+      background-size:180%;
+      background-position:center;
+      display: flex;
+      justify-content: center;
+    }
+    .hero-section p{
+      font-size: 2.5rem;
+    }
+    .pink-circle{
+      top: 25vh;
+    }
+  }
+  @media only screen and (max-width:650px){
+    body{
+      overflow-x: hidden;
+    }
+    .hero-section{
+      width: 100vw;
+      height: 90vh;
+      position: relative;
+      background-image:url("img/f.svg");
+      background-repeat: no-repeat;
+      background-size:230%;
+      background-position:center;
+      display: flex;
+      justify-content: center;
+    }
+    .pink-box{
+      position: absolute;
+      width: 50px;
+      height: 50px;
+      background-color: rgb(255, 35, 189);
+      top: 20vh;
+      left: 16vw;
+    }
+    .black-triangle{
+      position: absolute;
+      transform: scale(.3);
+      border-style: solid;
+      border-width: 0 100px 100px 100px;
+      border-color: transparent transparent #000000 transparent;
+      top: 7vh;
+      left: 5vw;
+    }
+  }  
+  @media only screen and (max-width:550px){
+    body{
+      overflow-x: hidden;
+    }
+    .hero-section{
+      width: 100vw;
+      height: 90vh;
+      position: relative;
+      background-image:url("img/f.svg");
+      background-repeat: no-repeat;
+      background-size:250%;
+      background-position:center;
+      display: flex;
+      justify-content: center;
+    }
+    .hero-section p{
+      font-size: 2rem;
+    }
+    .pink-box{
+      position: absolute;
+      width: 50px;
+      height: 50px;
+      background-color: rgb(255, 35, 189);
+      top: 20vh;
+      left: 16vw;
+    }
+    .black-triangle{
+      position: absolute;
+      transform: scale(.3);
+      border-style: solid;
+      border-width: 0 100px 100px 100px;
+      border-color: transparent transparent #000000 transparent;
+      top: 7vh;
+      left: 3vw;
+    }
+    #svg {
+      position: absolute;
+      top: 50vh;
+      left: 78vw;
+      width: 10%;
+      height: 10%;
+      transform:rotateY(180deg);
+      filter: drop-shadow(7px 5px);
+      transform: rotateZ(65deg);
+    }
+  }  
+
+
+  @media only screen and (max-width:460px){
+    body{
+      overflow-x: hidden;
+    }
+    .nav-left svg{
+      display: none;
+    }
+    .navbar{
+      width: 100%;
+      display: flex;
+      justify-content: space-around;
+
+    }
+    .hero-section{
+      width: 100vw;
+      height: 90vh;
+      position: relative;
+      background-image:url("img/f.svg");
+      background-repeat: no-repeat;
+      background-size:350%;
+      background-position:center;
+      display: flex;
+      justify-content: center;
+    }
+    .pink-box{
+      position: absolute;
+      width: 50px;
+      height: 50px;
+      background-color: rgb(255, 35, 189);
+      top: 20vh;
+      left: 16vw;
+    }
+    .black-triangle{
+      position: absolute;
+      transform: scale(.3);
+      border-style: solid;
+      border-width: 0 100px 100px 100px;
+      border-color: transparent transparent #000000 transparent;
+      top: 7vh;
+      left: 1vw;
+    }
+  }
+
+  @media only screen and (max-width:400px){
+    body{
+      overflow-x: hidden;
+    }
+    .navbar{
+      width: 100%;
+      display: flex;
+      justify-content: space-around;
+
+    }
+    .hero-section{
+      width: 100vw;
+      height: 90vh;
+      position: relative;
+      background-image:url("img/f.svg");
+      background-repeat: no-repeat;
+      background-size:380%;
+      background-position:center;
+      display: flex;
+      justify-content: center;
+    }
+    .pink-box{
+      position: absolute;
+      width: 50px;
+      height: 50px;
+      background-color: rgb(255, 35, 189);
+      top: 20vh;
+      left: 10vw;
+    }
+    .black-triangle{
+      position: absolute;
+      transform: scale(.3);
+      border-style: solid;
+      border-width: 0 100px 100px 100px;
+      border-color: transparent transparent #000000 transparent;
+      top: 8vh;
+      left: -8vw;
+    }
+    
+  }
+  @media only screen and (max-width:350px){
+    body{
+      overflow-x: hidden;
+    }
+    .hero-section{
+      width: 100vw;
+      height: 90vh;
+      position: relative;
+      background-image:url("img/f.svg");
+      background-repeat: no-repeat;
+      background-size:430%;
+      background-position:center;
+      display: flex;
+      justify-content: center;
+    }
+    .pink-box{
+      position: absolute;
+      width: 50px;
+      height: 50px;
+      background-color: rgb(255, 35, 189);
+      top: 20vh;
+      left: 10vw;
+    }
+    .black-triangle{
+      position: absolute;
+      transform: scale(.3);
+      border-style: solid;
+      border-width: 0 100px 100px 100px;
+      border-color: transparent transparent #000000 transparent;
+      top: 8vh;
+      left: -12vw;
+    }
+  } 
